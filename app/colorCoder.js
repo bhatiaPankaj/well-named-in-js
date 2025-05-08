@@ -96,6 +96,6 @@ function getPairNumberFromColor(pair)
             pairNumber =getPairNumberFromColor(testPair2);
             console.log(`[In]Colors: ${testPair2}, [Out] PairNumber: ${pairNumber}`);
 			console.assert(pairNumber==6);
-}
+} 
 
 test();
