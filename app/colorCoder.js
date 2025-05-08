@@ -1,15 +1,6 @@
 import {getColorFromPairNumber} from "./ColorFromPair.mjs";
 import {getPairNumberFromColor} from "./PairNumberFromColor.mjs";
-import {MajorColorNames, MinorColorNames} from "./constants.mjs";
-
-function ColorPair(){
-           this.majorColor;
-           this.minorColor;
-}
-
-ColorPair.prototype.toString=function(){
-	return `MajorColor:${this.majorColor},MinorColr:${this.minorColor}`;
-}
+import {ColorPair} from "./ColorPair.mjs";
 
 
 
