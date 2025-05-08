@@ -2,6 +2,7 @@
   "name": "well-named-in",
   "version": "1.0.0",
   "description": "JS Assignment Repository",
+  "type": "module",
   "main": "colorCoder.js",
   "scripts": {
     "start": "node app/colorCoder.js"
